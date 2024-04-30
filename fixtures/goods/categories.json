@@ -1,0 +1,42 @@
+[
+    {
+        "model": "goods.categories",
+        "pk": 3,
+        "fields": {
+            "name": "All goods",
+            "slug": "all"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 4,
+        "fields": {
+            "name": "Vegetables",
+            "slug": "vegetables"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 5,
+        "fields": {
+            "name": "Fruits",
+            "slug": "fruits"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 6,
+        "fields": {
+            "name": "Berries",
+            "slug": "berries"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 7,
+        "fields": {
+            "name": "Herbs",
+            "slug": "herbs"
+        }
+    }
+]

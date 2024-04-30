@@ -1,0 +1,226 @@
+[
+    {
+        "model": "goods.products",
+        "pk": 1,
+        "fields": {
+            "name": "Apples",
+            "slug": "apples",
+            "description": "Organic apples \"Golden Delicious\". Crispy, sweet sour. Ideal for baking.",
+            "image": "goods_images/apples.png",
+            "price": "2.50",
+            "discount": "0.00",
+            "quantity": 10,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 2,
+        "fields": {
+            "name": "Blackberries",
+            "slug": "blackberries",
+            "description": "Testy blackberries. Delicious",
+            "image": "goods_images/blackberries.png",
+            "price": "4.25",
+            "discount": "5.00",
+            "quantity": 6,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 3,
+        "fields": {
+            "name": "Blueberries",
+            "slug": "blueberries",
+            "description": "Tasty blueberries",
+            "image": "goods_images/blueberries.jpg",
+            "price": "3.00",
+            "discount": "15.00",
+            "quantity": 3,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 4,
+        "fields": {
+            "name": "Cabbage",
+            "slug": "cabbage",
+            "description": "Cabbage Napa for your salads",
+            "image": "goods_images/cabbage.png",
+            "price": "1.50",
+            "discount": "0.00",
+            "quantity": 8,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 5,
+        "fields": {
+            "name": "Cucumber",
+            "slug": "cucumber",
+            "description": "Cucumber for your salads",
+            "image": "goods_images/cucumber.png",
+            "price": "2.00",
+            "discount": "0.00",
+            "quantity": 20,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 6,
+        "fields": {
+            "name": "Dill",
+            "slug": "dill",
+            "description": "Organic dill",
+            "image": "goods_images/dill.png",
+            "price": "1.30",
+            "discount": "5.00",
+            "quantity": 7,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 7,
+        "fields": {
+            "name": "Green onion",
+            "slug": "green-onion",
+            "description": "Organic green onion",
+            "image": "goods_images/green_onion.png",
+            "price": "2.99",
+            "discount": "2.00",
+            "quantity": 5,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 8,
+        "fields": {
+            "name": "Onion",
+            "slug": "onion",
+            "description": "Organic red onion",
+            "image": "goods_images/onions.png",
+            "price": "2.60",
+            "discount": "0.00",
+            "quantity": 30,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 9,
+        "fields": {
+            "name": "Oranges",
+            "slug": "oranges",
+            "description": "Organic oranges",
+            "image": "goods_images/oranges.png",
+            "price": "0.99",
+            "discount": "0.00",
+            "quantity": 23,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 10,
+        "fields": {
+            "name": "Parsley",
+            "slug": "parsley",
+            "description": "Organic herb: parsley",
+            "image": "goods_images/parsley.png",
+            "price": "2.99",
+            "discount": "3.00",
+            "quantity": 3,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 11,
+        "fields": {
+            "name": "Pears",
+            "slug": "pears",
+            "description": "Organic sweet pears",
+            "image": "goods_images/pears.png",
+            "price": "4.99",
+            "discount": "10.00",
+            "quantity": 13,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 12,
+        "fields": {
+            "name": "Peppers",
+            "slug": "peppers",
+            "description": "Organic peppers: red, yellow, green",
+            "image": "goods_images/peppers.png",
+            "price": "3.00",
+            "discount": "0.00",
+            "quantity": 10,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 13,
+        "fields": {
+            "name": "Plums",
+            "slug": "plums",
+            "description": "Sweet plums",
+            "image": "goods_images/plums.png",
+            "price": "5.99",
+            "discount": "0.00",
+            "quantity": 16,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 14,
+        "fields": {
+            "name": "Raspberries",
+            "slug": "raspberries",
+            "description": "organic raspberries",
+            "image": "goods_images/raspberries.png",
+            "price": "4.00",
+            "discount": "0.00",
+            "quantity": 4,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 15,
+        "fields": {
+            "name": "Strawberries",
+            "slug": "strawberries",
+            "description": "Strawberries from fields",
+            "image": "goods_images/strawberries.png",
+            "price": "2.75",
+            "discount": "3.00",
+            "quantity": 17,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 16,
+        "fields": {
+            "name": "Tomatoes",
+            "slug": "tomatoes",
+            "description": "Big, sweet, tasty tomatoes",
+            "image": "goods_images/tomatoes.png",
+            "price": "2.99",
+            "discount": "0.00",
+            "quantity": 44,
+            "category": 4
+        }
+    }
+]

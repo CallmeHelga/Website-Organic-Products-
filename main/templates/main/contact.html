@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
+{% endblock  %}
+
+{% block modal_cart %}
+{% include "includes/cart_button.html" %}
+{% endblock  %}
+
+{% block content %}
+    <div class="mt-5 pt-5 bg-white custom-shadow rounded">
+        <h2 class="m-2 "><strong>{{ content }}</strong></h2>
+        {% for c in text_on_page %}
+        <p class="m-2">{{ c.address }}</p>
+        <p class="m-2">{{ c.phone }}</p>
+        <p class="m-2">{{ c.email }}</p>
+        <p class="m-2 ">{{ c.other }}</p>
+        {% endfor %}
+    </div>
+{% endblock  %}
+
+{% block footer %}
+<footer class="py-4 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Radchenko Olha 2024</p>
+    </div>
+</footer>
+{% endblock  %}
